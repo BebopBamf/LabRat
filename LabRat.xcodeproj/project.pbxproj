@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7922F44D2BB3D6E9006F5569 /* LabRatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F44C2BB3D6E9006F5569 /* LabRatApp.swift */; };
+		7922F44F2BB3D6E9006F5569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F44E2BB3D6E9006F5569 /* ContentView.swift */; };
+		7922F4512BB3D6EB006F5569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7922F4502BB3D6EB006F5569 /* Assets.xcassets */; };
+		7922F4542BB3D6EB006F5569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7922F4532BB3D6EB006F5569 /* Preview Assets.xcassets */; };
+		7922F45E2BB3D6EB006F5569 /* LabRatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F45D2BB3D6EB006F5569 /* LabRatTests.swift */; };
+		7922F4682BB3D6EB006F5569 /* LabRatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F4672BB3D6EB006F5569 /* LabRatUITests.swift */; };
+		7922F46A2BB3D6EB006F5569 /* LabRatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F4692BB3D6EB006F5569 /* LabRatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7922F45A2BB3D6EB006F5569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7922F4412BB3D6E9006F5569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7922F4482BB3D6E9006F5569;
+			remoteInfo = LabRat;
+		};
+		7922F4642BB3D6EB006F5569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7922F4412BB3D6E9006F5569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7922F4482BB3D6E9006F5569;
+			remoteInfo = LabRat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7922F4492BB3D6E9006F5569 /* LabRat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabRat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7922F44C2BB3D6E9006F5569 /* LabRatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabRatApp.swift; sourceTree = "<group>"; };
+		7922F44E2BB3D6E9006F5569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7922F4502BB3D6EB006F5569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7922F4532BB3D6EB006F5569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7922F4592BB3D6EB006F5569 /* LabRatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabRatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7922F45D2BB3D6EB006F5569 /* LabRatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabRatTests.swift; sourceTree = "<group>"; };
+		7922F4632BB3D6EB006F5569 /* LabRatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabRatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7922F4672BB3D6EB006F5569 /* LabRatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabRatUITests.swift; sourceTree = "<group>"; };
+		7922F4692BB3D6EB006F5569 /* LabRatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabRatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7922F4462BB3D6E9006F5569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7922F4562BB3D6EB006F5569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7922F4602BB3D6EB006F5569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7922F4402BB3D6E9006F5569 = {
+			isa = PBXGroup;
+			children = (
+				7922F44B2BB3D6E9006F5569 /* LabRat */,
+				7922F45C2BB3D6EB006F5569 /* LabRatTests */,
+				7922F4662BB3D6EB006F5569 /* LabRatUITests */,
+				7922F44A2BB3D6E9006F5569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7922F44A2BB3D6E9006F5569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7922F4492BB3D6E9006F5569 /* LabRat.app */,
+				7922F4592BB3D6EB006F5569 /* LabRatTests.xctest */,
+				7922F4632BB3D6EB006F5569 /* LabRatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7922F44B2BB3D6E9006F5569 /* LabRat */ = {
+			isa = PBXGroup;
+			children = (
+				7922F44C2BB3D6E9006F5569 /* LabRatApp.swift */,
+				7922F44E2BB3D6E9006F5569 /* ContentView.swift */,
+				7922F4502BB3D6EB006F5569 /* Assets.xcassets */,
+				7922F4522BB3D6EB006F5569 /* Preview Content */,
+			);
+			path = LabRat;
+			sourceTree = "<group>";
+		};
+		7922F4522BB3D6EB006F5569 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7922F4532BB3D6EB006F5569 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7922F45C2BB3D6EB006F5569 /* LabRatTests */ = {
+			isa = PBXGroup;
+			children = (
+				7922F45D2BB3D6EB006F5569 /* LabRatTests.swift */,
+			);
+			path = LabRatTests;
+			sourceTree = "<group>";
+		};
+		7922F4662BB3D6EB006F5569 /* LabRatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7922F4672BB3D6EB006F5569 /* LabRatUITests.swift */,
+				7922F4692BB3D6EB006F5569 /* LabRatUITestsLaunchTests.swift */,
+			);
+			path = LabRatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7922F4482BB3D6E9006F5569 /* LabRat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7922F46D2BB3D6EB006F5569 /* Build configuration list for PBXNativeTarget "LabRat" */;
+			buildPhases = (
+				7922F4452BB3D6E9006F5569 /* Sources */,
+				7922F4462BB3D6E9006F5569 /* Frameworks */,
+				7922F4472BB3D6E9006F5569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabRat;
+			productName = LabRat;
+			productReference = 7922F4492BB3D6E9006F5569 /* LabRat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7922F4582BB3D6EB006F5569 /* LabRatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7922F4702BB3D6EB006F5569 /* Build configuration list for PBXNativeTarget "LabRatTests" */;
+			buildPhases = (
+				7922F4552BB3D6EB006F5569 /* Sources */,
+				7922F4562BB3D6EB006F5569 /* Frameworks */,
+				7922F4572BB3D6EB006F5569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7922F45B2BB3D6EB006F5569 /* PBXTargetDependency */,
+			);
+			name = LabRatTests;
+			productName = LabRatTests;
+			productReference = 7922F4592BB3D6EB006F5569 /* LabRatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7922F4622BB3D6EB006F5569 /* LabRatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7922F4732BB3D6EB006F5569 /* Build configuration list for PBXNativeTarget "LabRatUITests" */;
+			buildPhases = (
+				7922F45F2BB3D6EB006F5569 /* Sources */,
+				7922F4602BB3D6EB006F5569 /* Frameworks */,
+				7922F4612BB3D6EB006F5569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7922F4652BB3D6EB006F5569 /* PBXTargetDependency */,
+			);
+			name = LabRatUITests;
+			productName = LabRatUITests;
+			productReference = 7922F4632BB3D6EB006F5569 /* LabRatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7922F4412BB3D6E9006F5569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7922F4482BB3D6E9006F5569 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					7922F4582BB3D6EB006F5569 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7922F4482BB3D6E9006F5569;
+					};
+					7922F4622BB3D6EB006F5569 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7922F4482BB3D6E9006F5569;
+					};
+				};
+			};
+			buildConfigurationList = 7922F4442BB3D6E9006F5569 /* Build configuration list for PBXProject "LabRat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7922F4402BB3D6E9006F5569;
+			productRefGroup = 7922F44A2BB3D6E9006F5569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7922F4482BB3D6E9006F5569 /* LabRat */,
+				7922F4582BB3D6EB006F5569 /* LabRatTests */,
+				7922F4622BB3D6EB006F5569 /* LabRatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7922F4472BB3D6E9006F5569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7922F4542BB3D6EB006F5569 /* Preview Assets.xcassets in Resources */,
+				7922F4512BB3D6EB006F5569 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7922F4572BB3D6EB006F5569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7922F4612BB3D6EB006F5569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7922F4452BB3D6E9006F5569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7922F44F2BB3D6E9006F5569 /* ContentView.swift in Sources */,
+				7922F44D2BB3D6E9006F5569 /* LabRatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7922F4552BB3D6EB006F5569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7922F45E2BB3D6EB006F5569 /* LabRatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7922F45F2BB3D6EB006F5569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7922F46A2BB3D6EB006F5569 /* LabRatUITestsLaunchTests.swift in Sources */,
+				7922F4682BB3D6EB006F5569 /* LabRatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7922F45B2BB3D6EB006F5569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7922F4482BB3D6E9006F5569 /* LabRat */;
+			targetProxy = 7922F45A2BB3D6EB006F5569 /* PBXContainerItemProxy */;
+		};
+		7922F4652BB3D6EB006F5569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7922F4482BB3D6E9006F5569 /* LabRat */;
+			targetProxy = 7922F4642BB3D6EB006F5569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7922F46B2BB3D6EB006F5569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7922F46C2BB3D6EB006F5569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7922F46E2BB3D6EB006F5569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LabRat/Preview Content\"";
+				DEVELOPMENT_TEAM = M2FST4UL8L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.effectfree.LabRat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7922F46F2BB3D6EB006F5569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LabRat/Preview Content\"";
+				DEVELOPMENT_TEAM = M2FST4UL8L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.effectfree.LabRat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7922F4712BB3D6EB006F5569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2FST4UL8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.effectfree.LabRatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabRat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabRat";
+			};
+			name = Debug;
+		};
+		7922F4722BB3D6EB006F5569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2FST4UL8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.effectfree.LabRatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabRat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabRat";
+			};
+			name = Release;
+		};
+		7922F4742BB3D6EB006F5569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2FST4UL8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.effectfree.LabRatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabRat;
+			};
+			name = Debug;
+		};
+		7922F4752BB3D6EB006F5569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2FST4UL8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.effectfree.LabRatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabRat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7922F4442BB3D6E9006F5569 /* Build configuration list for PBXProject "LabRat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7922F46B2BB3D6EB006F5569 /* Debug */,
+				7922F46C2BB3D6EB006F5569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7922F46D2BB3D6EB006F5569 /* Build configuration list for PBXNativeTarget "LabRat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7922F46E2BB3D6EB006F5569 /* Debug */,
+				7922F46F2BB3D6EB006F5569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7922F4702BB3D6EB006F5569 /* Build configuration list for PBXNativeTarget "LabRatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7922F4712BB3D6EB006F5569 /* Debug */,
+				7922F4722BB3D6EB006F5569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7922F4732BB3D6EB006F5569 /* Build configuration list for PBXNativeTarget "LabRatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7922F4742BB3D6EB006F5569 /* Debug */,
+				7922F4752BB3D6EB006F5569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7922F4412BB3D6E9006F5569 /* Project object */;
+}
