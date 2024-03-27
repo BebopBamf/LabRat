@@ -14,6 +14,10 @@
 		7922F45E2BB3D6EB006F5569 /* LabRatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F45D2BB3D6EB006F5569 /* LabRatTests.swift */; };
 		7922F4682BB3D6EB006F5569 /* LabRatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F4672BB3D6EB006F5569 /* LabRatUITests.swift */; };
 		7922F46A2BB3D6EB006F5569 /* LabRatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F4692BB3D6EB006F5569 /* LabRatUITestsLaunchTests.swift */; };
+		7922F4782BB43950006F5569 /* ReactiveSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7922F4772BB43950006F5569 /* ReactiveSwift */; };
+		7922F47D2BB439FF006F5569 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F47C2BB439FF006F5569 /* User.swift */; };
+		7922F4812BB43DFD006F5569 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922F4802BB43DFD006F5569 /* LoginView.swift */; };
+		7922F4842BB43FD2006F5569 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7922F4832BB43FD2006F5569 /* Supabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 		7922F4632BB3D6EB006F5569 /* LabRatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabRatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7922F4672BB3D6EB006F5569 /* LabRatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabRatUITests.swift; sourceTree = "<group>"; };
 		7922F4692BB3D6EB006F5569 /* LabRatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabRatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7922F47C2BB439FF006F5569 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7922F4802BB43DFD006F5569 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7922F4842BB43FD2006F5569 /* Supabase in Frameworks */,
+				7922F4782BB43950006F5569 /* ReactiveSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +102,8 @@
 		7922F44B2BB3D6E9006F5569 /* LabRat */ = {
 			isa = PBXGroup;
 			children = (
+				7922F47E2BB43BB4006F5569 /* Pages */,
+				7922F47B2BB4399A006F5569 /* Data */,
 				7922F44C2BB3D6E9006F5569 /* LabRatApp.swift */,
 				7922F44E2BB3D6E9006F5569 /* ContentView.swift */,
 				7922F4502BB3D6EB006F5569 /* Assets.xcassets */,
@@ -127,6 +137,30 @@
 			path = LabRatUITests;
 			sourceTree = "<group>";
 		};
+		7922F47B2BB4399A006F5569 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7922F47C2BB439FF006F5569 /* User.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7922F47E2BB43BB4006F5569 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				7922F47F2BB43BEA006F5569 /* Auth */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		7922F47F2BB43BEA006F5569 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7922F4802BB43DFD006F5569 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +177,10 @@
 			dependencies = (
 			);
 			name = LabRat;
+			packageProductDependencies = (
+				7922F4772BB43950006F5569 /* ReactiveSwift */,
+				7922F4832BB43FD2006F5569 /* Supabase */,
+			);
 			productName = LabRat;
 			productReference = 7922F4492BB3D6E9006F5569 /* LabRat.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +253,10 @@
 				Base,
 			);
 			mainGroup = 7922F4402BB3D6E9006F5569;
+			packageReferences = (
+				7922F4762BB43950006F5569 /* XCRemoteSwiftPackageReference "ReactiveSwift" */,
+				7922F4822BB43FD2006F5569 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 7922F44A2BB3D6E9006F5569 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +301,8 @@
 			files = (
 				7922F44F2BB3D6E9006F5569 /* ContentView.swift in Sources */,
 				7922F44D2BB3D6E9006F5569 /* LabRatApp.swift in Sources */,
+				7922F4812BB43DFD006F5569 /* LoginView.swift in Sources */,
+				7922F47D2BB439FF006F5569 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +632,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7922F4762BB43950006F5569 /* XCRemoteSwiftPackageReference "ReactiveSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveCocoa/ReactiveSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.1;
+			};
+		};
+		7922F4822BB43FD2006F5569 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7922F4772BB43950006F5569 /* ReactiveSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7922F4762BB43950006F5569 /* XCRemoteSwiftPackageReference "ReactiveSwift" */;
+			productName = ReactiveSwift;
+		};
+		7922F4832BB43FD2006F5569 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7922F4822BB43FD2006F5569 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7922F4412BB3D6E9006F5569 /* Project object */;
 }
